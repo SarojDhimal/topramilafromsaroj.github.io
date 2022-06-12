@@ -1,0 +1,116 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .navbar {
+        display: flex;
+        border: 5px solid green;
+        border-radius: 10px;
+        background-color: green;
+        background-size: cover;
+    }
+    
+    .nav-list {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-list li {
+        list-style: none;
+        padding: 2px 20px;
+        font-size: 30px;
+        margin: 40px;
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+        color: red;
+    }
+    
+    #Response {
+        font-size: 20px;
+        color: blueviolet;
+    }
+    
+    .nav-list li a:hover {
+        color: blue;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo img {
+        left: 200px;
+        width: 30%;
+        border: 5px solid rgb(200, 0, 255);
+        border-radius: 50px;
+    }
+    
+    .logo2 {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo2 img {
+        margin: 5px;
+        right: 100px;
+        padding: 10px;
+        width: 30%;
+        border: 5px solid rgb(25, 0, 255);
+        border-radius: 50px;
+    }
+    
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .first-half {}
+    
+    .second-half {
+        width: 30%;
+    }
+    
+    .poem1 {
+        background-color: yellow;
+        background-size: cover;
+        display: flex;
+    }
+    
+    .poem1 img {
+        margin: 5px;
+        padding: 3px;
+        width: 30%;
+    }
+    
+    .poem2 {
+        background-color: rgb(255, 0, 149);
+        background-size: cover;
+        display: flex;
+    }
+    
+    .poem2 img {
+        margin: 5px;
+        padding: 3px;
+        width: 30%;
+    }
+    
+    .poem3 {
+        background-color: rgb(236, 36, 179);
+        background-size: cover;
+        display: flex;
+    }
+    
+    .poem3 img {
+        margin: 5px;
+        padding: 3px;
+        width: 30%;
+    }
